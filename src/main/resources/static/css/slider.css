@@ -1,0 +1,11 @@
+.test p {
+    margin: 0 20px;
+}
+
+#myRangeContainer {
+    padding: 0 20px 0 15px;
+}
+
+#myRange {
+    width: 100%;
+}
