@@ -17,10 +17,19 @@ slider_beta.oninput = function() {
 }
 
 var slider_edge = document.getElementById("edge");
-var output_edge= document.getElementById("edge-val");
+var output_edge = document.getElementById("edge-val");
 output_beta.innerHTML = slider_edge.value; // Display the default slider value
 
 // Update the current slider value (each time you drag the slider handle)
 slider_edge.oninput = function() {
     output_edge.innerHTML = this.value;
+}
+
+var slider_noise = document.getElementById("thresh");
+var output_noise = document.getElementById("thresh-val");
+output_noise.innerHTML = slider_noise.value; // Display the default slider value
+
+// Update the current slider value (each time you drag the slider handle)
+slider_noise.oninput = function() {
+    output_noise.innerHTML = this.value;
 }
